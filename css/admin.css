@@ -1,0 +1,254 @@
+        /* Center the add service modal in the viewport */
+        #addServiceModal {
+          display: none;
+          position: fixed;
+          top: 0; left: 0; width: 100vw; height: 100vh;
+          background: rgba(34,34,34,0.18);
+          z-index: 9999;
+          align-items: center;
+          justify-content: center;
+        }
+        #addServiceModal.active {
+          display: flex !important;
+        }
+        #addServiceModal .user-alert-modal {
+          max-width: 400px;
+          width: 96%;
+          background: #fff;
+          border-radius: 10px;
+          box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+          padding: 1.5rem 1.2rem;
+          position: relative;
+          margin: 0 auto;
+          animation: popupAlert 0.18s cubic-bezier(.4,2,.6,1) both;
+          display: flex;
+          flex-direction: column;
+          top: 0;
+          left: 0;
+          transform: none;
+        }
+        #addServiceModal .user-alert-modal.small-modal {
+          max-width: 320px;
+          padding: 1.1rem 0.8rem;
+        }
+        #addServiceModal .user-alert-modal.small-modal .modal-header h3 {
+          font-size: 1rem;
+        }
+        #addServiceModal .user-alert-modal.small-modal input,
+        #addServiceModal .user-alert-modal.small-modal textarea,
+        #addServiceModal .user-alert-modal.small-modal select {
+          font-size: 0.97rem;
+          padding: 0.45rem 0.7rem;
+        }
+        #addServiceModal .user-alert-modal.small-modal label {
+          font-size: 0.97rem;
+        }
+        #addServiceModal .user-alert-modal.small-modal .form-footer {
+          margin-top: 0.8rem;
+        }
+
+        /* Settings section styles */
+        #settingsContent table {
+          width: 100%;
+          border-radius: 8px;
+          overflow: hidden;
+        }
+        #settingsContent th, #settingsContent td {
+          border-bottom: 1px solid #f0f0f0;
+        }
+        #settingsContent tr:last-child td {
+          border-bottom: none;
+        }
+        #settingsContent th {
+          color: #067c3c;
+          font-weight: 600;
+        }
+        #settingsContent td {
+          color: #444;
+        }
+        #settingsContent {
+          margin-bottom: 1.5rem;
+        }
+        #editSettingsModal .user-alert-modal.small-modal {
+          max-width: 340px;
+          padding: 1.1rem 0.8rem;
+        }
+        #editSettingsModal .user-alert-modal.small-modal .modal-header h3 {
+          font-size: 1rem;
+        }
+        #editSettingsModal .user-alert-modal.small-modal input {
+          font-size: 0.97rem;
+          padding: 0.45rem 0.7rem;
+          width: 100%;
+          margin-bottom: 0.7rem;
+        }
+        #editSettingsModal .user-alert-modal.small-modal label {
+          font-size: 0.97rem;
+        }
+        #editSettingsModal .user-alert-modal.small-modal .form-footer {
+          margin-top: 0.8rem;
+        }
+            /* Center the add user modal in the viewport */
+    #addUserModal {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; width: 100vw; height: 100vh;
+      background: rgba(34,34,34,0.18);
+      z-index: 9999;
+      align-items: center;
+      justify-content: center;
+    }
+    #addUserModal.active {
+      display: flex !important;
+    }
+    #addUserModal .user-alert-modal {
+      max-width: 400px;
+      width: 96%;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+      padding: 1.5rem 1.2rem;
+      position: relative;
+      margin: 0 auto;
+      animation: popupAlert 0.18s cubic-bezier(.4,2,.6,1) both;
+      display: flex;
+      flex-direction: column;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+    #addUserModal .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #eee;
+      margin-bottom: 1rem;
+    }
+    #addUserModal .modal-header h3 {
+      font-size: 1.1rem;
+      color: #1a6b54;
+      margin: 0;
+    }
+    #addUserModal .close-modal {
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      color: #d32f2f;
+      cursor: pointer;
+    }
+    #addUserModal .modal-body {
+      padding: 0.5rem 0;
+    }
+    #addUserModal .form-footer {
+      margin-top: 1.2rem;
+      text-align: right;
+    }
+    
+    /* Center the user alert modal in the viewport */
+    #userDetailModal {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; width: 100vw; height: 100vh;
+      background: rgba(34,34,34,0.18);
+      z-index: 9999;
+      align-items: center;
+      justify-content: center;
+    }
+    #userDetailModal.active {
+      display: flex !important;
+    }
+    #userDetailModal .user-alert-modal {
+      max-width: 370px;
+      width: 96%;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+      padding: 1.5rem 1.2rem;
+      position: relative;
+      margin: 0 auto;
+      animation: popupAlert 0.18s cubic-bezier(.4,2,.6,1) both;
+      display: flex;
+      flex-direction: column;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+    #userDetailModal .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #eee;
+      margin-bottom: 1rem;
+    }
+    #userDetailModal .modal-header h3 {
+      font-size: 1.1rem;
+      color: #1a6b54;
+      margin: 0;
+    }
+    #userDetailModal .close-modal {
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      color: #d32f2f;
+      cursor: pointer;
+    }
+    #userDetailModal .modal-body {
+      padding: 0.5rem 0;
+    }
+    #userDetailModal .modal-footer {
+      margin-top: 1.2rem;
+      text-align: right;
+    }
+    .notification-bell:hover #notificationDropdown,
+            .notification-bell:focus-within #notificationDropdown {
+              display: block !important;
+            }
+            .notification-bell .badge {
+              transition: background 0.18s;
+            }
+            #notificationDropdown::-webkit-scrollbar {
+              width: 6px;
+              background: #f0f0f0;
+            }
+            #notificationDropdown::-webkit-scrollbar-thumb {
+              background: #e0f2ec;
+              border-radius: 6px;
+            }
+    @keyframes popupAlert {
+      0% { transform: scale(0.92); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+        /* Minimal fixes for dashboard.css if sections are not showing */
+    /* .admin-section { display: none; }
+    .admin-section.active, .admin-section[style*="display: block"], .admin-section[style=""] { display: block; }
+    .admin-tabs { margin-bottom: 1.5rem; }
+    .admin-tab-btn {
+      background: #f5f5f5;
+      border: none;
+      padding: 0.7rem 1.4rem;
+      border-radius: 5px 5px 0 0;
+      font-size: 1rem;
+      color: #067c3c;
+      cursor: pointer;
+      font-weight: 600;
+      transition: background 0.18s;
+    }
+    .admin-tab-btn.active, .admin-tab-btn:focus {
+      background: #067c3c;
+      color: #fff;
+      outline: none;
+    }
+    @media (max-width: 900px) {
+      .admin-tabs { flex-wrap: wrap; gap: 0.5rem; }
+      .admin-tab-btn { font-size: 0.97rem; padding: 0.5rem 1rem; }
+    } */
+    @media (max-width: 992px) {
+      #sidebarCloseBtn {
+        display: block !important;
+      }
+    }
+    @media (min-width: 993px) {
+      #sidebarCloseBtn {
+        display: none !important;
+      }
+    }
